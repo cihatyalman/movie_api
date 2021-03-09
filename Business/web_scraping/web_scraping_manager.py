@@ -12,7 +12,6 @@ class WebScrapingManager:
     category_dal = CategoryDal()
     link_dal = LinkDal()
 
-    #__baselink = "https://whdfilmizle.com/page/"
     __baselink = "https://wfilmizle.pw/page/"
 
     @classmethod
