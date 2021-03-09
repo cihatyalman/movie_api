@@ -3,8 +3,10 @@ Film içerikli uygulamalarda kullanabileceğiniz bir WebAPI.
 #
 ### Kullanılan kütüphaneler:
 - flask
-- pymysql
+- sqlite3
+- requests
+- bs4
 #
-Her hangi bir veritabanına bağlanarak, veritabanındaki bilgileri bize sunan ve veritabanında değişiklik yapmamıza olanak sağlayan bir web api örneklemesi yapılmıştır.
+Web Scraping yöntemiyle bir film sitesinden alınan filmler local bir veritabanına kaydededilir.
 
-Bununla beraber unity ortamında çalıştığınız projenizde her hangi bir web api ile nasıl bağlantı kurulacağı da örneklenmiştir.
+WebAPI ile vertabanından çeşitli isteklere göre uygun filmler seçilir ve kullanıcıya sunulur.
